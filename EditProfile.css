@@ -1,0 +1,42 @@
+
+body{
+background: linear-gradient(to bottom, #cac8bb, #c5c2ae, #bfba9b);
+}
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    .save-btn {
+        background-color: #8a7a6d; 
+        color: white;
+        width: 120px;
+    }
+    .cancel-btn {
+        color: red;
+        border: 2px solid #FF7008;
+        width: 120px;
+    }
+    .form-control {
+        width: 50%;
+        height: 60px;
+    }
+    .form-label{
+        font-weight: bold;
+    }
+    .input-group {
+        position: relative;
+    }
+
+    .input-group-text {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: transparent;
+        border: none;
+        color: green;
+    }
